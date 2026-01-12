@@ -30,6 +30,7 @@ class KafkaRepository:
         ) as consumer:
             async for msg in consumer:
                 data = json.loads(msg.value.decode("utf-8"))
+                print(data)  # TODO: Обработать сообщение
 
 
     async def wait_kafka(self, retries=10000, delay=20):
