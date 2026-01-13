@@ -34,9 +34,9 @@ Admin Service является частью проекта **[Microservices_Site
 * принимает gRPC-запросы от:
   * Gateway;
 * взаимодействует через **Kafka** с:
-  * **Auth Service** — бан и удаление пользователя;
-  * **User Service** — удаление пользователя;
-  * **Post Service** — административные операции над контентом;
+  * **[Auth Service](https://github.com/Weit145/auth-service)** — бан и удаление пользователя;
+  * **[User Service](https://github.com/Weit145/user-service)** — удаление пользователя;
+  * **[Post Service](https://github.com/Weit145/post-service)** — административные операции над контентом;
 * не имеет прямого HTTP-доступа извне.
 
 
