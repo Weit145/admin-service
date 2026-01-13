@@ -32,7 +32,7 @@ Admin Service является частью проекта **[Microservices_Site
 ### 🧩 Взаимодействие в системе
 
 * принимает gRPC-запросы от:
-  * Gateway;
+  * **[Gateway](https://github.com/Weit145/gateway)**;
 * взаимодействует через **Kafka** с:
   * **[Auth Service](https://github.com/Weit145/auth-service)** — бан и удаление пользователя;
   * **[User Service](https://github.com/Weit145/user-service)** — удаление пользователя;
